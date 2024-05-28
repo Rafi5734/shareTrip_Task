@@ -1,15 +1,8 @@
-import React from "react";
-import { Navbar } from "flowbite-react";
 import { Dropdown } from "flowbite-react";
 import shareTripNavLogo from "../../assets/shareTrip_nav_logo.png";
 import { Button } from "flowbite-react";
-import { useWindowSize } from "@uidotdev/usehooks";
-
 
 const NavbarMain = () => {
-  const size = useWindowSize();
-
-
   return (
     <div className="container mx-auto">
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
